@@ -170,7 +170,7 @@ class Lattice_HP_QUBO:
             for j in range(len(bits)):
                 if bits[j] == 0:
                     continue
-                qhp += self.HPQ[(self.keys[i], self.keys[j])]
+                qhp += self.QHP[(self.keys[i], self.keys[j])]
                 q1 += self.Q1[(self.keys[i], self.keys[j])]
                 q2 += self.Q2[(self.keys[i], self.keys[j])]
                 q3 += self.Q3[(self.keys[i], self.keys[j])]
